@@ -16,16 +16,26 @@ The following software must be installed for the curse :
 
 Go to launchpad and do:
 
->> tar -xzf MG5_aMC_v2.X.X.tar.gz
->> cd MG5_aMC_v2_3_0
->> ./bin/mg5_aMC
-> tutorial
+tar -xzf MG5_aMC_v2.X.X.tar.gz
+
+cd MG5_aMC_v2_3_0
+
+./bin/mg5_aMC
+
+tutorial
+
+Follow tutorial:
 
 generate p p > t t~
+
 display processes
+
 display diagrams
-output mytestdir
+
+output MY_FIRST_MG5_RUN
+
 launch
+
 0
 
 Open MY_FIRST_MG5_RUN and analyse folder, but leave tutorial terminal open.

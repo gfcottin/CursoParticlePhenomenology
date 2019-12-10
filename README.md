@@ -1,6 +1,6 @@
 # CursoParticlePhenomenology
 
-## HEP Sotware ##
+## HEP Software ##
 
 The following software must be installed for the curse :
 

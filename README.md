@@ -43,15 +43,16 @@ Open MY_FIRST_MG5_RUN and analyse folder, but leave tutorial terminal open.
 Following the tutorial again until finish.
 
 
-## Exercise 1:##
+## Exercise 1: ##
 
 Plot the cross-section of the right-handed neutrino vs its mass for the the type-I see-saw model
 
-(import SST model
-modify run_card for 1000 events
+(import SST model-
+modify run_card for 1000 events-
 run scripted SST run)
 
 Now, generate a grid of masses with the python script and run an scripted run for all masses
+
 ## Fastjet ##
 
 curl -O http://fastjet.fr/repo/fastjet-3.3.3.tar.gz

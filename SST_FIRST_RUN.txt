@@ -1,0 +1,14 @@
+import model SM_SST1_UFO
+define p = g u c d s u~ c~ d~ s~
+define j = g u c d s u~ c~ d~ s~
+define l+ = e+ mu+
+define l- = e- mu-
+define vl = ve vm vt
+generate p p > w+, (w+ > e+ nu4)
+output SST_FIRST_RUN
+launch -i
+generate_events
+../param_card_SST_e.dat
+set Vv 4 1 1e-8
+set MASS 112 10
+set DECAY 112 Auto

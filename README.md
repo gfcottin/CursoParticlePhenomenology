@@ -81,7 +81,8 @@ Run first main01 in examples folder
 
 ## Exercise 2: ##
 
-Find all charged particles coming from the neutrino decay and make a plot
+Find charged particles from the event and make a plot. How many are coming from the neutrino decay?
+Plot the eta distribution of the electrons and the neutrinos.
 
 ## Fastjet ##
 

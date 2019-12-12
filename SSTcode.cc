@@ -94,16 +94,6 @@ int main() {
         neutrinos<<mass<<" "<<gamma<<" "<<event[i].pT()<<endl;  
         }
       }    
-
-    // Find charged particles from the event. (How many are coming from the neutrino?)
-    int nCharged = 0;
-    for (int i= 0; i < event.size(); i++){
-      if (pythia.event[i].isFinal() && pythia.event[i].isCharged())
-        ++nCharged;
-    mult.fill( nCharged );
-
-    }  
-
   }//End of event loop.    
 
   cout <<" CutFlow for mN [GeV]  = "<< setprecision(5)<< pythia.particleData.m0(112) <<endl;

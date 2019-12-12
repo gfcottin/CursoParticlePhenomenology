@@ -54,11 +54,9 @@ ma5> submit
 ma5> open
 
 
+
+
 ## Exercise 1: ##
-
-
-
-## Exercise 2: ##
 
 Plot the cross-section of the right-handed neutrino vs its mass for the the type-I see-saw model
 
@@ -67,6 +65,23 @@ modify run_card for 1000 events-
 run scripted SST run)
 
 Now, generate a grid of masses with the python script and run an scripted run for all masses
+
+
+## Pythia ##
+
+Download Pythia8
+
+tar xvfz pythia8243.tgz
+
+./configure --with-gzip --with-fastjet3=/home/gfcottin/fastjet-install
+
+make
+
+Run first main01 in examples folder
+
+## Exercise 2: ##
+
+Find all charged particles coming from the neutrino decay and make a plot
 
 ## Fastjet ##
 
@@ -87,19 +102,3 @@ make install
 cd ..
 
 And then follow example on the website.
-
-## Pythia ##
-
-Download Pythia8
-
-tar xvfz pythia8243.tgz
-
-./configure --with-gzip --with-fastjet3=/home/gfcottin/fastjet-install
-
-make
-
-Run first main01 in examples folder
-
-## Exercise 3: ##
-
-Find all charged particles coming from the neutrino decay and make a plot

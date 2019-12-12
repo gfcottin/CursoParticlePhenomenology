@@ -7,6 +7,7 @@ The following software must be installed for the curse :
   * A good text editor ! I recommend [Sublime](https://www.sublimetext.com/3)	
   * python
   * [MadGraph](https://launchpad.net/mg5amcnlo)
+  * [MadAnalysis](https://launchpad.net/madanalysis5/)
   * [FastJet](http://fastjet.fr/quickstart.html)
   * [Pythia8](http://home.thep.lu.se/Pythia/) (compiled with gzip, FastJet)
   * [ROOT](https://root.cern.ch/)  
@@ -42,8 +43,22 @@ Open MY_FIRST_MG5_RUN and analyse folder, but leave tutorial terminal open.
 
 Following the tutorial again until finish.
 
+## MadAnalysis ##
+
+ma5> import samples/XXX.lhe.gz
+
+ma5> plot TET
+
+ma5> submit
+
+ma5> open
+
 
 ## Exercise 1: ##
+
+
+
+## Exercise 2: ##
 
 Plot the cross-section of the right-handed neutrino vs its mass for the the type-I see-saw model
 
@@ -82,3 +97,9 @@ tar xvfz pythia8243.tgz
 ./configure --with-gzip --with-fastjet3=/home/gfcottin/fastjet-install
 
 make
+
+Run first main01 in examples folder
+
+## Exercise 3: ##
+
+Find all charged particles coming from the neutrino decay and make a plot

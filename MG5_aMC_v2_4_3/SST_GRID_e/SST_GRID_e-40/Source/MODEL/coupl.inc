@@ -1,0 +1,36 @@
+ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+c      written by the UFO converter
+ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+      DOUBLE PRECISION G
+      COMMON/STRONG/ G
+
+      DOUBLE COMPLEX GAL(2)
+      COMMON/WEAK/ GAL
+
+      DOUBLE PRECISION MU_R
+      COMMON/RSCALE/ MU_R
+
+      DOUBLE PRECISION NF
+      PARAMETER(NF=0)
+
+      DOUBLE PRECISION MDL_ME1,MDL_ME3,MDL_ME2,MDL_MNU6,MDL_MNU4
+     $ ,MDL_MNU5,MDL_MZ,MDL_MD2,MDL_MD3,MDL_MD1,MDL_MU1,MDL_MU3
+     $ ,MDL_MU2,MDL_MWP,MDL_MH
+
+      COMMON/MASSES/ MDL_ME1,MDL_ME3,MDL_ME2,MDL_MNU6,MDL_MNU4
+     $ ,MDL_MNU5,MDL_MZ,MDL_MD2,MDL_MD3,MDL_MD1,MDL_MU1,MDL_MU3
+     $ ,MDL_MU2,MDL_MWP,MDL_MH
+
+
+      DOUBLE PRECISION MDL_WWP,MDL_WZ,MDL_WNU4,MDL_WNU5,MDL_WNU6
+     $ ,MDL_WU3,MDL_WH
+
+      COMMON/WIDTHS/ MDL_WWP,MDL_WZ,MDL_WNU4,MDL_WNU5,MDL_WNU6,MDL_WU3
+     $ ,MDL_WH
+
+
+      DOUBLE COMPLEX GC_345, GC_346, GC_348, GC_349, GC_462
+
+      COMMON/COUPLINGS/ GC_345, GC_346, GC_348, GC_349, GC_462
+

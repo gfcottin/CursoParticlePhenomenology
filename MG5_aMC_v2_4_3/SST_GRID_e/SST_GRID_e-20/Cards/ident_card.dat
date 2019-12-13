@@ -1,0 +1,451 @@
+ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+c      written by the UFO converter
+ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+mass 1 mdl_Md1
+
+mass 3 mdl_Md2
+
+mass 5 mdl_Md3
+
+mass 2 mdl_Mu1
+
+mass 4 mdl_Mu2
+
+mass 6 mdl_Mu3
+
+decay 6 mdl_Wu3
+
+mass 11 mdl_Me1
+
+mass 13 mdl_Me2
+
+mass 15 mdl_Me3
+
+mass 112 mdl_Mnu4
+
+decay 112 mdl_Wnu4
+
+mass 114 mdl_Mnu5
+
+decay 114 mdl_Wnu5
+
+mass 116 mdl_Mnu6
+
+decay 116 mdl_Wnu6
+
+mass 25 mdl_Mh
+
+decay 25 mdl_Wh
+
+mass 23 mdl_MZ
+
+decay 23 mdl_WZ
+
+decay 24 mdl_WWp
+
+yv 1 1 mdl_rYv11
+
+imyv 1 1 mdl_iYv11
+
+yv 1 2 mdl_rYv12
+
+imyv 1 2 mdl_iYv12
+
+yv 1 3 mdl_rYv13
+
+imyv 1 3 mdl_iYv13
+
+yv 2 1 mdl_rYv21
+
+imyv 2 1 mdl_iYv21
+
+yv 2 2 mdl_rYv22
+
+imyv 2 2 mdl_iYv22
+
+yv 2 3 mdl_rYv23
+
+imyv 2 3 mdl_iYv23
+
+yv 3 1 mdl_rYv31
+
+imyv 3 1 mdl_iYv31
+
+yv 3 2 mdl_rYv32
+
+imyv 3 2 mdl_iYv32
+
+yv 3 3 mdl_rYv33
+
+imyv 3 3 mdl_iYv33
+
+udlmix 1 1 mdl_rZDL11
+
+imudlmix 1 1 mdl_iZDL11
+
+udlmix 1 2 mdl_rZDL12
+
+imudlmix 1 2 mdl_iZDL12
+
+udlmix 1 3 mdl_rZDL13
+
+imudlmix 1 3 mdl_iZDL13
+
+udlmix 2 1 mdl_rZDL21
+
+imudlmix 2 1 mdl_iZDL21
+
+udlmix 2 2 mdl_rZDL22
+
+imudlmix 2 2 mdl_iZDL22
+
+udlmix 2 3 mdl_rZDL23
+
+imudlmix 2 3 mdl_iZDL23
+
+udlmix 3 1 mdl_rZDL31
+
+imudlmix 3 1 mdl_iZDL31
+
+udlmix 3 2 mdl_rZDL32
+
+imudlmix 3 2 mdl_iZDL32
+
+udlmix 3 3 mdl_rZDL33
+
+imudlmix 3 3 mdl_iZDL33
+
+udrmix 1 1 mdl_rZDR11
+
+imudrmix 1 1 mdl_iZDR11
+
+udrmix 1 2 mdl_rZDR12
+
+imudrmix 1 2 mdl_iZDR12
+
+udrmix 1 3 mdl_rZDR13
+
+imudrmix 1 3 mdl_iZDR13
+
+udrmix 2 1 mdl_rZDR21
+
+imudrmix 2 1 mdl_iZDR21
+
+udrmix 2 2 mdl_rZDR22
+
+imudrmix 2 2 mdl_iZDR22
+
+udrmix 2 3 mdl_rZDR23
+
+imudrmix 2 3 mdl_iZDR23
+
+udrmix 3 1 mdl_rZDR31
+
+imudrmix 3 1 mdl_iZDR31
+
+udrmix 3 2 mdl_rZDR32
+
+imudrmix 3 2 mdl_iZDR32
+
+udrmix 3 3 mdl_rZDR33
+
+imudrmix 3 3 mdl_iZDR33
+
+uulmix 1 1 mdl_rZUL11
+
+imuulmix 1 1 mdl_iZUL11
+
+uulmix 1 2 mdl_rZUL12
+
+imuulmix 1 2 mdl_iZUL12
+
+uulmix 1 3 mdl_rZUL13
+
+imuulmix 1 3 mdl_iZUL13
+
+uulmix 2 1 mdl_rZUL21
+
+imuulmix 2 1 mdl_iZUL21
+
+uulmix 2 2 mdl_rZUL22
+
+imuulmix 2 2 mdl_iZUL22
+
+uulmix 2 3 mdl_rZUL23
+
+imuulmix 2 3 mdl_iZUL23
+
+uulmix 3 1 mdl_rZUL31
+
+imuulmix 3 1 mdl_iZUL31
+
+uulmix 3 2 mdl_rZUL32
+
+imuulmix 3 2 mdl_iZUL32
+
+uulmix 3 3 mdl_rZUL33
+
+imuulmix 3 3 mdl_iZUL33
+
+uurmix 1 1 mdl_rZUR11
+
+imuurmix 1 1 mdl_iZUR11
+
+uurmix 1 2 mdl_rZUR12
+
+imuurmix 1 2 mdl_iZUR12
+
+uurmix 1 3 mdl_rZUR13
+
+imuurmix 1 3 mdl_iZUR13
+
+uurmix 2 1 mdl_rZUR21
+
+imuurmix 2 1 mdl_iZUR21
+
+uurmix 2 2 mdl_rZUR22
+
+imuurmix 2 2 mdl_iZUR22
+
+uurmix 2 3 mdl_rZUR23
+
+imuurmix 2 3 mdl_iZUR23
+
+uurmix 3 1 mdl_rZUR31
+
+imuurmix 3 1 mdl_iZUR31
+
+uurmix 3 2 mdl_rZUR32
+
+imuurmix 3 2 mdl_iZUR32
+
+uurmix 3 3 mdl_rZUR33
+
+imuurmix 3 3 mdl_iZUR33
+
+uelmix 1 1 mdl_rZEL11
+
+imuelmix 1 1 mdl_iZEL11
+
+uelmix 1 2 mdl_rZEL12
+
+imuelmix 1 2 mdl_iZEL12
+
+uelmix 1 3 mdl_rZEL13
+
+imuelmix 1 3 mdl_iZEL13
+
+uelmix 2 1 mdl_rZEL21
+
+imuelmix 2 1 mdl_iZEL21
+
+uelmix 2 2 mdl_rZEL22
+
+imuelmix 2 2 mdl_iZEL22
+
+uelmix 2 3 mdl_rZEL23
+
+imuelmix 2 3 mdl_iZEL23
+
+uelmix 3 1 mdl_rZEL31
+
+imuelmix 3 1 mdl_iZEL31
+
+uelmix 3 2 mdl_rZEL32
+
+imuelmix 3 2 mdl_iZEL32
+
+uelmix 3 3 mdl_rZEL33
+
+imuelmix 3 3 mdl_iZEL33
+
+uermix 1 1 mdl_rZER11
+
+imuermix 1 1 mdl_iZER11
+
+uermix 1 2 mdl_rZER12
+
+imuermix 1 2 mdl_iZER12
+
+uermix 1 3 mdl_rZER13
+
+imuermix 1 3 mdl_iZER13
+
+uermix 2 1 mdl_rZER21
+
+imuermix 2 1 mdl_iZER21
+
+uermix 2 2 mdl_rZER22
+
+imuermix 2 2 mdl_iZER22
+
+uermix 2 3 mdl_rZER23
+
+imuermix 2 3 mdl_iZER23
+
+uermix 3 1 mdl_rZER31
+
+imuermix 3 1 mdl_iZER31
+
+uermix 3 2 mdl_rZER32
+
+imuermix 3 2 mdl_iZER32
+
+uermix 3 3 mdl_rZER33
+
+imuermix 3 3 mdl_iZER33
+
+vv 1 1 mdl_rVv11
+
+imvv 1 1 mdl_iVv11
+
+vv 1 2 mdl_rVv12
+
+imvv 1 2 mdl_iVv12
+
+vv 1 3 mdl_rVv13
+
+imvv 1 3 mdl_iVv13
+
+vv 1 4 mdl_rVv14
+
+imvv 1 4 mdl_iVv14
+
+vv 1 5 mdl_rVv15
+
+imvv 1 5 mdl_iVv15
+
+vv 1 6 mdl_rVv16
+
+imvv 1 6 mdl_iVv16
+
+vv 2 1 mdl_rVv21
+
+imvv 2 1 mdl_iVv21
+
+vv 2 2 mdl_rVv22
+
+imvv 2 2 mdl_iVv22
+
+vv 2 3 mdl_rVv23
+
+imvv 2 3 mdl_iVv23
+
+vv 2 4 mdl_rVv24
+
+imvv 2 4 mdl_iVv24
+
+vv 2 5 mdl_rVv25
+
+imvv 2 5 mdl_iVv25
+
+vv 2 6 mdl_rVv26
+
+imvv 2 6 mdl_iVv26
+
+vv 3 1 mdl_rVv31
+
+imvv 3 1 mdl_iVv31
+
+vv 3 2 mdl_rVv32
+
+imvv 3 2 mdl_iVv32
+
+vv 3 3 mdl_rVv33
+
+imvv 3 3 mdl_iVv33
+
+vv 3 4 mdl_rVv34
+
+imvv 3 4 mdl_iVv34
+
+vv 3 5 mdl_rVv35
+
+imvv 3 5 mdl_iVv35
+
+vv 3 6 mdl_rVv36
+
+imvv 3 6 mdl_iVv36
+
+vv 4 1 mdl_rVv41
+
+imvv 4 1 mdl_iVv41
+
+vv 4 2 mdl_rVv42
+
+imvv 4 2 mdl_iVv42
+
+vv 4 3 mdl_rVv43
+
+imvv 4 3 mdl_iVv43
+
+vv 4 4 mdl_rVv44
+
+imvv 4 4 mdl_iVv44
+
+vv 4 5 mdl_rVv45
+
+imvv 4 5 mdl_iVv45
+
+vv 4 6 mdl_rVv46
+
+imvv 4 6 mdl_iVv46
+
+vv 5 1 mdl_rVv51
+
+imvv 5 1 mdl_iVv51
+
+vv 5 2 mdl_rVv52
+
+imvv 5 2 mdl_iVv52
+
+vv 5 3 mdl_rVv53
+
+imvv 5 3 mdl_iVv53
+
+vv 5 4 mdl_rVv54
+
+imvv 5 4 mdl_iVv54
+
+vv 5 5 mdl_rVv55
+
+imvv 5 5 mdl_iVv55
+
+vv 5 6 mdl_rVv56
+
+imvv 5 6 mdl_iVv56
+
+vv 6 1 mdl_rVv61
+
+imvv 6 1 mdl_iVv61
+
+vv 6 2 mdl_rVv62
+
+imvv 6 2 mdl_iVv62
+
+vv 6 3 mdl_rVv63
+
+imvv 6 3 mdl_iVv63
+
+vv 6 4 mdl_rVv64
+
+imvv 6 4 mdl_iVv64
+
+vv 6 5 mdl_rVv65
+
+imvv 6 5 mdl_iVv65
+
+vv 6 6 mdl_rVv66
+
+imvv 6 6 mdl_iVv66
+
+sminputs 3 aS
+
+sminputs 1 aEWM1
+
+sminputs 2 mdl_Gf
+
+effhiggscouplings 25 22 22 mdl_HPP1
+
+effhiggscouplings 25 21 21 mdl_HGG1
